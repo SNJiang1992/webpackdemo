@@ -1,0 +1,14 @@
+{
+  "name": "webpackdemo",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "watch": "webpack --config ./webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "webpack": "^3.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
